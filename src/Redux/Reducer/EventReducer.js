@@ -61,14 +61,14 @@ const initialState = {
         "id": 12
     },
     {
-        "startTime": "Sun Apr 19 2022 16:10:00 GMT+0530 (India Standard Time)",
-        "endTime": "Sun Apr 19 2022 17:50:00 GMT+0530 (India Standard Time)",
+        "startTime": "Sun Apr 19 2022 06:10:00 GMT+0530 (India Standard Time)",
+        "endTime": "Sun Apr 19 2022 07:20:00 GMT+0530 (India Standard Time)",
         "title": "Event 10",
         "id": 13
     },
     {
-        "startTime": "Sun Apr 19 2022 16:10:00 GMT+0530 (India Standard Time)",
-        "endTime": "Sun Apr 19 2022 17:50:00 GMT+0530 (India Standard Time)",
+        "startTime": "Sun Apr 19 2022 08:10:00 GMT+0530 (India Standard Time)",
+        "endTime": "Sun Apr 19 2022 08:30:00 GMT+0530 (India Standard Time)",
         "title": "Event 10",
         "id": 14
     },
