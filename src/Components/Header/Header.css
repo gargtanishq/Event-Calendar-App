@@ -1,0 +1,70 @@
+.header {
+  padding: 25px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* position: fixed; */
+  width: 100%;
+  height: 4rem;
+  z-index: 10;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: #232a55; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: ease-in-out 0.3s;
+  border-radius: 5px;
+}
+
+button:hover {
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.5), 0 17px 50px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  color: rgb(188, 198, 207);
+}
+
+.today-date {
+  color: #232a55; /* Green */
+  border: none;
+  background-color: white;
+  width: 7rem;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  transition: ease-in-out 0.3s;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px 5px rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(167, 68, 68, 0.19);
+  font-weight: 500;
+}
+
+.today-date:hover {
+  cursor: default;
+}
+
+@media only screen and (max-width: 600px) {
+  .animate {
+    padding: 6px 7px;
+    font-size: 0.8rem;
+  }
+  .header {
+    padding: 10px 0;
+  }
+  #today-date-id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
+    font-size: 0.6rem;
+    height: 1.5rem;
+  }
+}
